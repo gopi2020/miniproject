@@ -1,5 +1,7 @@
 import 'dart:io';
 
+enum move { a, d, r }
+
 void main() {
   while (true) {
     stdout.write("Rock paper Scissor (r/p/s)?:");
