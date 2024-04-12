@@ -40,7 +40,11 @@ void main() {
       print("your Computer Move: $commoves");
       print('your Result: $result');
     } else if (yourChoise == 'q') {
-      break;
+      stdout.write("are you quite this game ? say yes or no:");
+      var youranswer = stdin.readLineSync();
+      if (youranswer == "yes") {
+        break;
+      }
     } else {
       print("invaild input");
     }
