@@ -39,5 +39,8 @@ void main() {
     } catch (e) {
       print("your value invaild");
     }
+    finally {
+      print("program in end");
+    }
   }
 }
